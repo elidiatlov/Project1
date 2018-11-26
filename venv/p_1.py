@@ -21,6 +21,7 @@ driver.find_element_by_id("ember904").send_keys("Aa12345678")
 driver.find_element_by_xpath("//*[@id='ember900']/div[5]/div/label").click()
 driver.find_element_by_xpath("//*[@id='ember900']/button").click()
 print(123)
+print(456)
 
 time.sleep(3)
 
