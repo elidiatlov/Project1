@@ -14,12 +14,12 @@ driver.find_element_by_xpath("//*[@id='ember951']/button").click()
 
 ### By using the elements, we fill up the necessary details for siging up to the website
 
-# driver.find_element_by_id("ember901").send_keys("eli")
-# driver.find_element_by_id("ember902").send_keys("Aa12345678@gmail.com")
-# driver.find_element_by_id("valPass").send_keys("Aa12345678")
-# driver.find_element_by_id("ember904").send_keys("Aa12345678")
-# driver.find_element_by_xpath("//*[@id='ember900']/div[5]/div/label").click()
-# driver.find_element_by_xpath("//*[@id='ember900']/button").click()
+driver.find_element_by_id("ember901").send_keys("eli")
+driver.find_element_by_id("ember902").send_keys("Aa12345678@gmail.com")
+driver.find_element_by_id("valPass").send_keys("Aa12345678")
+driver.find_element_by_id("ember904").send_keys("Aa12345678")
+driver.find_element_by_xpath("//*[@id='ember900']/div[5]/div/label").click()
+driver.find_element_by_xpath("//*[@id='ember900']/button").click()
 
 time.sleep(3)
 
